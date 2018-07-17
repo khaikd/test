@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42b92d1d-5f34-4e73-a5b2-fb6ba22def9b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/meadowlark.js" afterDir="false" />
-    </list>
+    <list default="true" id="42b92d1d-5f34-4e73-a5b2-fb6ba22def9b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,12 +161,12 @@
       <updated>1531729958414</updated>
       <workItem from="1531729959617" duration="3758000" />
       <workItem from="1531735174157" duration="1192000" />
-      <workItem from="1531791367028" duration="3998000" />
+      <workItem from="1531791367028" duration="5210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8948000" />
+    <option name="totallyTimeSpent" value="10160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
