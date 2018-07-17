@@ -4,6 +4,8 @@ var app = express();
 var handlebars = require('express3-handlebars').create({ defaultLayout:'main' });
 var fortune = require('./lib/fortune.js');
 
+if( app.thing == null ) console.log( 'bleat!' );
+
 app.use(function(req, res, next){
     res.locals.showTests = app.get('env') !== 'production' &&
         req.query.test === '1';
