@@ -15,7 +15,7 @@ app.get('/', function(req, res){
     res.render('pages/home');
 });
 app.get('/about', function(req, res){
-    res.render('pages/about', { fortune: randomFortune });
+    res.render('pages/about', { fortune: fortune.getFortune() });
 });
 
 // custom 404 page
