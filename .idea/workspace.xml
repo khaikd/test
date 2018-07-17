@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42b92d1d-5f34-4e73-a5b2-fb6ba22def9b" name="Default" comment="" />
+    <list default="true" id="42b92d1d-5f34-4e73-a5b2-fb6ba22def9b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/qa/tests-about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/qa/tests-global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/tours/hood-river.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/tours/request-group-rate.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meadowlark.js" beforeDir="false" afterPath="$PROJECT_DIR$/meadowlark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +22,35 @@
       <file leaf-file-name="meadowlark.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meadowlark.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="289">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests-about.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/qa/tests-about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hood-river.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/tours/hood-river.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request-group-rate.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/tours/request-group-rate.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -50,8 +85,17 @@
       <file leaf-file-name="main.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="158">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests-global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/qa/tests-global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -65,6 +109,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fortune</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,10 +124,14 @@
         <option value="$PROJECT_DIR$/views/pages/home.handlebars" />
         <option value="$PROJECT_DIR$/views/pages/404.handlebars" />
         <option value="$PROJECT_DIR$/views/pages/500.handlebars" />
-        <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/views/pages/about.handlebars" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/fortune.js" />
+        <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
+        <option value="$PROJECT_DIR$/public/qa/tests-global.js" />
+        <option value="$PROJECT_DIR$/public/qa/tests-about.js" />
+        <option value="$PROJECT_DIR$/views/pages/tours/hood-river.handlebars" />
+        <option value="$PROJECT_DIR$/views/pages/tours/request-group-rate.handlebars" />
         <option value="$PROJECT_DIR$/meadowlark.js" />
       </list>
     </option>
@@ -128,6 +181,30 @@
               <item name="vidu" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vidu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vidu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vidu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vidu" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vidu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vidu" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vidu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vidu" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="tours" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,15 +243,16 @@
       <updated>1531729958414</updated>
       <workItem from="1531729959617" duration="3758000" />
       <workItem from="1531735174157" duration="1192000" />
-      <workItem from="1531791367028" duration="5479000" />
+      <workItem from="1531791367028" duration="8504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10429000" />
+    <option name="totallyTimeSpent" value="13454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,13 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -279,10 +350,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/qa/tests-global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/qa/tests-about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/tours/hood-river.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/tours/request-group-rate.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meadowlark.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="289">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,12 @@ var app = express();
 var handlebars = require('express3-handlebars').create({ defaultLayout:'main' });
 var fortune = require('./lib/fortune.js');
 
+app.use(function(req, res, next){
+    res.locals.showTests = app.get('env') !== 'production' &&
+        req.query.test === '1';
+    next();
+});
+
 app.use(express.static(__dirname + '/public'));
 
 app.engine('handlebars', handlebars.engine);
@@ -15,7 +21,18 @@ app.get('/', function(req, res){
     res.render('pages/home');
 });
 app.get('/about', function(req, res){
-    res.render('pages/about', { fortune: fortune.getFortune() });
+    res.render('pages/about', {
+        fortune: fortune.getFortune(),
+        pageTestScript: '/qa/tests-about.js'
+    });
+});
+
+app.get('/tours/hood-river', function(req, res){
+    res.render('pages/tours/hood-river');
+});
+
+app.get('/tours/request-group-rate', function(req, res){
+    res.render('pages/tours/request-group-rate');
 });
 
 // custom 404 page
