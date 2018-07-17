@@ -4,8 +4,6 @@ var app = express();
 var handlebars = require('express3-handlebars').create({ defaultLayout:'main' });
 var fortune = require('./lib/fortune.js');
 
-if( app.thing == null ) console.log( 'bleat!' );
-
 app.use(function(req, res, next){
     res.locals.showTests = app.get('env') !== 'production' &&
         req.query.test === '1';
@@ -37,6 +35,13 @@ app.get('/tours/request-group-rate', function(req, res){
     res.render('pages/tours/request-group-rate');
 });
 
+app.get('/headers', function(req,res){
+    res.set('Content-Type','text/plain');
+    var s = '';
+    for(var name in req.headers) s += name + ': ' + req.headers[name] + '\n';
+    res.send(s);
+});
+
 // custom 404 page
 app.use(function (req, res) {
     res.status(404);
@@ -49,6 +54,8 @@ app.use(function (err, req, res, next) {
     res.status(500);
     res.render('pages/500');
 });
+
+app.disable('x-powered-by');
 
 app.listen(app.get('port'), function () {
     console.log('Express started on http://localhost:'+ app.get('port') + '; press Ctrl-C to terminate.');
